@@ -1,6 +1,31 @@
-body{
-    background-color:bisque;
+
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+@font-face {
+    font-family: dmserif;
+    src: url(./front/front1/DM_Serif_Text/DMSerifText-Italic.ttf);
+}
+
+
+
+
+h1{
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 2,5rem;
+    text-shadow: 1px 1px 4px #0000008c;
+    text-decoration:underline;
+    letter-spacing: .3rem;
+    font-family: "Oswald", sans-serif;
+    
+    
+    
 }
 p{
-    text-transform:capitalize
+    text-transform: capitalize;
+    text-align:justify;
+    font-family: "Oswald", sans-serif;
+}
+ul{
+    font-family: "dmserif" ,Verdana;
 }
