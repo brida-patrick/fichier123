@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Bokor&family=DM+Serif+Text:ital@0;1&family=Oswald:wght@200..700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Oswald", serif;
+}
+
+.imagprincipal {
+    background: url(./photos/photo/madrid.jpg) fixed no-repeat 50% 50%  ;
+    height:500px ;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    
+    
+    
+}
+.navigation{
+    background-color: cornflowerblue;
+    opacity: 0,9;
+    position: fixed;
+    width:100%;
+    
+    padding:0px;
+    margin: 0px 0 5px 0;
+
+    
+}
+ul{
+    display: flex;
+    justify-content:end;
+    flex-direction: row;
+    align-items: center;
+    
+    
+}
+li{
+    list-style-type: none;
+    margin: 1px 1px 10px 1px;
+    padding: 10px;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+}
+.imagprincipal h1 {
+    text-transform: uppercase;
+    align-items: center;
+    font-size: 2.2rem;
+    letter-spacing: 2px;
+    
+   
+    
+}
+.logo{
+  display: grid;
+ grid-template-columns: 1fr;
+  
+}
+.corps{
+    padding: 10px;
+    display: block;
+    margin: 10px;
+    
+    
+    
+}
+img{
+    width: 50%;
+    border-radius: 20px;
+}
+.nature{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    margin: 10px;
+}
+.oiseau{
+    display:block;
+    margin: 15px ;
+}
+.oiseau img{
+    width: 160px;
+    height: 160px;
+    
+}
+.paraisseux{
+    margin-left: 100px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 15px;
+    
+}
